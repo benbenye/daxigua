@@ -1,0 +1,102 @@
+{
+  "__version__": "1.0.1",
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "chess-2"
+      },
+      {
+        "index": 2,
+        "name": "chess-4"
+      },
+      {
+        "index": 3,
+        "name": "chess-8"
+      },
+      {
+        "index": 4,
+        "name": "chess-16"
+      },
+      {
+        "index": 5,
+        "name": "chess-32"
+      },
+      {
+        "index": 6,
+        "name": "chess-64"
+      },
+      {
+        "index": 7,
+        "name": "chess-128"
+      },
+      {
+        "index": 8,
+        "name": "chess-256"
+      },
+      {
+        "index": 9,
+        "name": "chess-512"
+      },
+      {
+        "index": 10,
+        "name": "chess-1024"
+      },
+      {
+        "index": 11,
+        "name": "chess-2048"
+      },
+      {
+        "index": 12,
+        "name": "chess-4096"
+      },
+      {
+        "index": 13,
+        "name": "chess-8192"
+      },
+      {
+        "index": 28,
+        "name": "chessMerged"
+      },
+      {
+        "index": 29,
+        "name": "standbyMerge"
+      },
+      {
+        "index": 30,
+        "name": "wall"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 1879064572,
+      "2": 1879064570,
+      "3": 1879064566,
+      "4": 1879064558,
+      "5": 1879064542,
+      "6": 1879063998,
+      "7": 1879063934,
+      "8": 1879063806,
+      "9": 1879063614,
+      "10": 1879063550,
+      "11": 1879062526,
+      "12": 1879060478,
+      "13": 1879056382,
+      "28": 1879064574,
+      "29": 1342193662,
+      "30": 1879064574
+    },
+    "autoSimulation": true,
+    "gravity": {
+      "x": 0,
+      "y": -400,
+      "z": 0
+    }
+  }
+}
